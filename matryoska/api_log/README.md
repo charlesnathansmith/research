@@ -13,6 +13,8 @@ Download and extract Intel Pin from:
 
 Copy the api_log directory into Pin's tools directory (pin\source\tools\) and build api_log.sln in Release mode for the same architecture as the target program.
 
+There is nothing special about the project files.  If you have issues building, just make a copy of MyPinTool from Pin's tools directory and replace the source with api_log.cpp
+
 # Running
 
 You'll of course have to specify the full paths for these:
