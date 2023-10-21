@@ -114,7 +114,7 @@ Little was done here in the way of analyzing the actual program assembly in deta
 [https://portswigger.net/burp/communitydownload](https://portswigger.net/burp/communitydownload)  
 [https://www.proxifier.com/](https://www.proxifier.com/)
 
-**WMI related***  
+**WMI related**  
 [https://learn.microsoft.com/en-us/windows/win32/wmisdk/wmi-reference](https://learn.microsoft.com/en-us/windows/win32/wmisdk/wmi-reference)
 
 **IWinHttpRequest**  
