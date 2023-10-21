@@ -1,2 +1,0 @@
-# research
-Research projects
