@@ -1,4 +1,4 @@
-**Analysis of the Matroyska Bootstrap Loader**  
+**Analysis of the Matryoshka Bootstrap Loader**  
 Charles Nathan Smith
 
 # Background and Overview
