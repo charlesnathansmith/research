@@ -63,7 +63,7 @@ This is just checking if the host is up, where **172.67.136.136** is a CloudFare
 
 The actual URL accessed should be passed into the **IWinHttpRequest** object's methods and is a bit difficult to track down through the present method (see **Additional Research** below.)
 
-For now it suffices just to proxy all of our traffic through **Burp Suite** and catch the HTTPS request:
+For now it suffices just to proxy all of our traffic through **Burp Suite** (with some help from **Proxifier**) and catch the HTTPS request:
 ```
 https://samples.vx-underground.org/root/Samples/cmd.exe
 ```
