@@ -48,7 +48,7 @@ C:\WINDOWS\SYSTEM32\ntdll.dll!ZwClose returns to 7ff775b022a9
 C:\WINDOWS\SYSTEM32\ntdll.dll!NtCreateUserProcess returns to 7ff775b01b21
 ```
 
-This won't catch every interesting call as some are buried in library wrappers, but is enough to give a high-level overview and a starting point to start setting some breakpoints.
+This won't catch every interesting call, but is enough to give a high-level overview and a starting point to start setting some breakpoints.
 
 Of particular interest are the COM control and fastprox.dll related calls, as a lot of the workload seems to be getting handed off to them.
 
