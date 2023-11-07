@@ -3,7 +3,7 @@
 #include <fstream>
 #include <map>
 
-// Output log file
+// Command line options
 KNOB<std::string> opt_logfile(KNOB_MODE_WRITEONCE, "pintool", "o", "log.txt", "log file");
 KNOB<ADDRINT> opt_log_baseaddr(KNOB_MODE_WRITEONCE, "pintool", "b", "0x14000000", "exe base address");
 KNOB<BOOL> opt_quiet(KNOB_MODE_WRITEONCE, "pintool", "q", "0", "quiet - log only APIs returning to exe");
